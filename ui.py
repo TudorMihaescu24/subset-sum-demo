@@ -3,9 +3,9 @@ from tkinter import ttk
 import tkinter.font as tkfont
 
 import sv_ttk
-from ui.init_window import InitWindow
-from ui.alg_window import AlgWindow
-from ui.theme import FONT_FAMILY, FONT
+from util.init_window import InitWindow
+from util.alg_window import AlgWindow
+from util.theme import FONT_FAMILY, FONT
 
 def apply_font():
     for name in tkfont.names():
@@ -51,7 +51,3 @@ class DemoUI:
 
     def run(self):
         self.root.mainloop()
-
-if __name__ == "__main__":
-    DemoUI().run()
-

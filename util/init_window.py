@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 import random
 
-from ui.theme import FONT
+from util.theme import FONT
 
 
 class InitWindow:
